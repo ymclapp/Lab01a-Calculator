@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 
 namespace CalculatorConsole
 {
@@ -6,7 +6,10 @@ namespace CalculatorConsole
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+      //do not declare any global variables
+      //Main should output generic exceptions
+      //Only define specific exceptions once and pay attention to the callstack on how requests are being made
+      StartSequence();
         }
     }
 }
